@@ -1,0 +1,65 @@
+/* custom buttons */
+.btn-purple {
+  background-color: var(--purple-700);
+}
+.btn-purple:hover {
+  background-color: var(--purple-500);
+}
+
+.btn-outline-purple {
+  color: var(--purple-700);
+}
+.btn-outline-purple:hover {
+  background-color: var(--purple-200);
+}
+
+/* btn-outline predefined colors */
+.btn-outline-red {
+  color: var(--red-500);
+}
+.btn-outline-red:hover {
+  background-color: var(--red-50);
+}
+.btn-outline-green {
+  color: var(--green-500);
+}
+.btn-outline-green:hover {
+  background-color: var(--green-50);
+}
+.btn-outline-blue {
+  color: var(--blue-500);
+}
+.btn-outline-blue:hover {
+  background-color: var(--blue-50);
+}
+.btn-outline-yellow {
+  color: var(--yellow-500);
+}
+.btn-outline-yellow:hover {
+  background-color: var(--yellow-50);
+}
+
+.btn-float-outline-purple {
+  color: var(--purple-700);
+}
+.btn-float-outline-purple:hover {
+  background-color: var(--purple-200);
+  color: var(--purple-700);
+}
+
+.svg-icon {
+  width: 1rem;
+  height: auto;
+
+  /* border: solid 1px currentColor; */
+}
+
+.icon-button-content {
+  display: flex;
+}
+
+/* btn light-gray */
+.btn-gray:hover {
+  background-color: var(--gray-300);
+  box-shadow: none;
+}

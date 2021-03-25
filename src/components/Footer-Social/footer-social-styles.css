@@ -1,0 +1,7 @@
+.footer-social-icon a {
+  color: var(--gray-400);
+}
+.footer-social-icon:hover a {
+  cursor: pointer;
+  color: var(--gray-700);
+}

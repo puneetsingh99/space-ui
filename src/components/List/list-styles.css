@@ -1,0 +1,8 @@
+.stacked-list {
+  /* border: solid 1px green; */
+}
+.stacked-list li {
+  /* border: solid 1px green; */
+  padding: 1rem 0rem;
+  border-bottom: solid 1px var(--gray-500);
+}

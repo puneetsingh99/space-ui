@@ -1,0 +1,10 @@
+.home-page__hero {
+  width: 300px;
+  max-width: 500px;
+}
+
+.home-page__code-container {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1rem;
+}

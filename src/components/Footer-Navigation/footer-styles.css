@@ -1,0 +1,7 @@
+.custom-btn {
+  color: var(--gray-500);
+}
+.custom-btn:hover {
+  background-color: inherit;
+  color: var(--gray-700);
+}

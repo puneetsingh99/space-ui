@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./slider-styles.css";
 
 export const Slider = () => {
   return (

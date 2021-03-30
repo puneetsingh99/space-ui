@@ -1,5 +1,4 @@
-import "../../styles.css";
-import "./footer-styles.css";
+
 import { Arrow, ArrowRight } from "../../assets";
 
 export const FooterNav = ({ route, components, setRoute }) => {

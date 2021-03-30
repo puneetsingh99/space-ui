@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./input-styles.css";
 
 export const Input = () => {
   return (

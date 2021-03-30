@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./footer-social-styles.css";
 import { Github, Twitter, Linkedin, Instagram } from "../../assets";
 
 export const FooterSocial = () => {

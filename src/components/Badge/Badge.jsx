@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./badge-styles.css";
 import { Email, HeartOutline, Bell, Bag, Cart } from "../../assets";
 
 export const Badge = () => {

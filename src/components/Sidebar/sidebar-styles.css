@@ -38,3 +38,9 @@
   color: var(--gray-700);
   width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+  .sidebar-container {
+    display: none;
+  }
+}

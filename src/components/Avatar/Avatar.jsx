@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./avatar-styles.css";
 import { Folder, Email } from "../../assets";
 import face from "../../assets/face.jpg";
 

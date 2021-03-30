@@ -1,6 +1,3 @@
-import "../../styles.css";
-import "./text-styles.css";
-
 export const Text = () => {
   return (
     <div className="w-full m-auto text-left">

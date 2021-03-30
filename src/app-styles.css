@@ -59,3 +59,10 @@ body {
 .code-container::-webkit-scrollbar {
   display: none;
 }
+
+/* Mobile devices */
+@media screen and (max-width: 600px) {
+  .grid-container {
+    width: 95%;
+  }
+}

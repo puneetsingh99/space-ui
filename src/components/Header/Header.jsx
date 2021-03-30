@@ -1,12 +1,10 @@
-import "../../styles.css";
-import "./header-styles.css";
 import { Github } from "../../assets";
 import space from "../../assets/space.svg";
 
 export const Header = ({ setRoute }) => {
   return (
     <header className="w-full bg-white p-4 header-container">
-      <div className="w-f56 mx-auto flex justify-between">
+      <div className="mx-auto flex justify-between header-content">
         <div className="logo cursor-pointer" onClick={() => setRoute("home")}>
           <h1 className="text-2xl">
             <span className="flex items-center">
@@ -24,9 +22,8 @@ export const Header = ({ setRoute }) => {
         <div className="text-gray-400 text-2xl flex items-center">
           <p className="text-lg mr-4">v1.0</p>{" "}
           <p className="header__link" onClick={() => setRoute("avatar")}>
-            {" "}
             Docs
-          </p>{" "}
+          </p>
           <span className="github-icon ">
             <a
               href={`https://github.com/puneetsingh99/space-ui/`}
@@ -34,7 +31,7 @@ export const Header = ({ setRoute }) => {
             >
               <Github />
             </a>
-          </span>{" "}
+          </span>
         </div>
       </div>
     </header>

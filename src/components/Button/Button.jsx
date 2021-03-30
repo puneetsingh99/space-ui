@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./button-styles.css";
 import { Arrow, ChevronDoubleUp } from "../../assets";
 
 export const Button = () => {

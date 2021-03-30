@@ -1,5 +1,4 @@
-import "../../styles.css";
-import "./sidebar-styles.css";
+
 
 export const Sidebar = ({ route, setRoute }) => {
   return (

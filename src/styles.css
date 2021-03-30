@@ -1,3 +1,67 @@
+/* Individual Component Styles */
+
+/* Alert */
+@import url("./components/Alert/alert-styles.css");
+
+/* Avatar */
+@import url("./components/Avatar/avatar-styles.css");
+
+/* Badge */
+@import url("./components/Badge/badge-styles.css");
+
+/* Button */
+@import url("./components/Button/button-styles.css");
+
+/* Card */
+@import url("./components/Card/card-styles.css");
+
+/* Footer-Navigation */
+@import url("./components/Footer-Navigation/footer-styles.css");
+
+/* Footer-social */
+@import url("./components/Footer-Social/footer-social-styles.css");
+
+/* Header */
+@import url("./components/Header/header-styles.css");
+
+/* Home */
+@import url("./components/Home/home-styles.css");
+
+/* Image */
+@import url("./components/Image/img-styles.css");
+
+/* Input */
+@import url("./components/Input/input-styles.css");
+
+/* List */
+@import url("./components/List/list-styles.css");
+
+/* Modal */
+@import url("./components/Modal/modal-styles.css");
+
+/* Navigation */
+@import url("./components/Navigation/navigation-styles.css");
+
+/* Notify */
+@import url("./components/Notify/notify-styles.css");
+
+/* Rating */
+@import url("./components/Rating/rating-styles.css");
+
+/* Sidebar */
+@import url("./components/Sidebar/sidebar-styles.css");
+
+/* Slider */
+@import url("./components/Slider/slider-styles.css");
+
+/* Snackbar */
+@import url("./components/Snackbar/snackbar-styles.css");
+
+/* Text */
+@import url("./components/Text/text-styles.css");
+
+/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -114,510 +178,16 @@
 }
 
 /* image  */
-.img {
-  max-width: 100%;
-}
-.img-round {
-  border-radius: 50%;
-}
 
-/* Avatars */
-/* image avatars of different  sizes */
-.avatar {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-}
-.avatar-sm {
-  width: 2rem;
-  height: 2rem;
-}
-.avatar-lg {
-  width: 4rem;
-  height: 4rem;
-}
-.avatar-xl {
-  width: 5rem;
-  height: 5rem;
-}
-
-/* Icon avatars */
-.icon-avatar {
-  width: 3rem;
-  height: 3rem;
-  font-size: 0.8rem;
-  border-radius: 50%;
-  color: var(--gray-50);
-  background-color: var(--gray-700);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon-avatar-sm {
-  width: 2rem;
-  height: 2rem;
-  font-size: 0.5rem;
-}
-
-.icon-avatar-lg {
-  width: 4rem;
-  height: 4rem;
-  font-size: 1rem;
-}
-
-/* avatar with badge */
-.avatar-badge {
-  position: relative;
-}
-.badge {
-  position: absolute;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  background-color: var(--green-400);
-  border: solid 2px var(--white);
-  top: 60%;
-  right: -4px;
-}
-.badge-red {
-  background-color: var(--red-400);
-}
-
+/* Styles moved to separate  files: */
+/* Avatar */
 /* Alert */
-.alert {
-  width: 100%;
-  display: block;
-  padding: 1rem 1rem;
-  border: none;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-/* alert quote */
-.alert-quote {
-  border-left: solid 5px currentColor;
-}
-
-/* simple alerts */
-.alert-success {
-  color: var(--green-700);
-  background-color: var(--green-100);
-}
-.alert-error {
-  color: var(--red-700);
-  background-color: var(--red-100);
-}
-.alert-warning {
-  color: var(--yellow-700);
-  background-color: var(--yellow-100);
-}
-.alert-info {
-  color: var(--blue-700);
-  background-color: var(--blue-100);
-}
-
-/* alert with description */
-/* to use alert with description, only slight modificaton to simple alert is  required */
-
-/* outlined alerts */
-.alert-outline-success {
-  color: var(--green-700);
-  background-color: var(--green-100);
-  border: solid 1px currentColor;
-}
-.alert-outline-error {
-  color: var(--red-700);
-  background-color: var(--red-100);
-  border: solid 1px currentColor;
-}
-.alert-outline-warning {
-  color: var(--yellow-700);
-  background-color: var(--yellow-100);
-  border: solid 1px currentColor;
-}
-.alert-outline-info {
-  color: var(--blue-700);
-  background-color: var(--blue-100);
-  border: solid 1px currentColor;
-}
-
-/* alert filled */
-.alert-filled-success {
-  color: var(--white);
-  background-color: var(--green-500);
-  border: solid 1px currentColor;
-}
-.alert-filled-error {
-  color: var(--white);
-  background-color: var(--red-500);
-  border: solid 1px currentColor;
-}
-.alert-filled-warning {
-  color: var(--white);
-  background-color: var(--yellow-400);
-  border: solid 1px currentColor;
-}
-.alert-filled-info {
-  color: var(--white);
-  background-color: var(--blue-500);
-  border: solid 1px currentColor;
-}
-
-/* alert with action */
-.alert-action {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.alert-action-icon {
-  background: inherit;
-  border-radius: 50%;
-  align-self: flex-end;
-  transition: 0.3s ease;
-}
-.alert-action-icon-success:hover {
-  background-color: var(--green-200);
-}
-.alert-action-icon-error:hover {
-  background-color: var(--red-200);
-}
-.alert-action-icon-warning:hover {
-  background-color: var(--yellow-200);
-}
-.alert-action-icon-info:hover {
-  background-color: var(--blue-200);
-}
-
 /* Badge */
-.badge-icon {
-  position: relative;
-  width: max-content;
-  color: var(--gray-600);
-  font-size: 0.8rem;
-}
-
-.badge-num {
-  position: absolute;
-  min-height: 25px;
-  min-width: 25px;
-  border-radius: 50%;
-  padding: 0.25rem;
-  color: var(--white);
-  background-color: var(--red-400);
-  border: solid 2px var(--white);
-  bottom: 60%;
-  right: -12px;
-  display: flex;
-  font-size: 0.75rem;
-  justify-content: center;
-  align-items: center;
-}
-/* Buttons */
-
-/* button component */
-.btn {
-  padding: 0.75em 1.5em;
-  font-size: 1rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 0.375rem;
-  background-color: var(--gray-800);
-  color: var(--gray-50);
-  /* margin: 1em; */
-  cursor: pointer;
-  transition: 0.3s;
-}
-.btn:hover {
-  background-color: var(--gray-700);
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-}
-.btn-outline {
-  background: inherit;
-  color: var(--gray-800);
-  border: solid 1px currentColor;
-}
-.btn-outline:hover {
-  /* color: var(--gray-50); */
-  background-color: var(--gray-200);
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-}
-
-.btn-text {
-  margin-left: 0.375em;
-}
-
-/* button rounded */
-.btn-rounded {
-  border-radius: 9999px;
-}
-
-/* button floating */
-.btn-float {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  border: none;
-  color: var(--gray-50);
-  background-color: var(--gray-800);
-  transition: 0.3s;
-}
-.btn-float:hover {
-  background-color: var(--gray-700);
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-}
-
-.btn-float-outline {
-  background: inherit;
-  color: var(--gray-800);
-  border: solid 1px currentColor;
-}
-.btn-float-outline:hover {
-  color: var(--gray-50);
-  background-color: var(--gray-700);
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-}
-
-/* predefined colorful buttons */
-/* Red */
-/* Green */
-/* yellow */
-/* Blue */
-
-/* red */
-.btn-red {
-  background-color: var(--red-500);
-}
-.btn-red:hover {
-  background-color: var(--red-600);
-}
-
-/* green */
-.btn-green {
-  background-color: var(--green-500);
-}
-.btn-green:hover {
-  background-color: var(--green-600);
-}
-
-/* yellow */
-.btn-yellow {
-  background-color: var(--yellow-500);
-}
-.btn-yellow:hover {
-  background-color: var(--yellow-600);
-}
-
-/* blue */
-.btn-blue {
-  background-color: var(--blue-500);
-}
-.btn-blue:hover {
-  background-color: var(--blue-600);
-}
-
+/* Button */
 /* cards */
-/* e-commerce card */
-.card {
-  width: 250px;
-  transition: 0.3s ease;
-}
-.card:hover {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.card-text {
-  min-width: 300px;
-  max-width: 500px;
-  border-radius: 5px;
-}
-.card-text img {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-.model-name {
-  margin-bottom: 0.5rem;
-  color: var(--gray-500);
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-}
-
-.brand-name,
-.card-text-title {
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  margin-bottom: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.card-text-title {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.w-250 {
-  width: 250px;
-}
-
-.card-text-body {
-  margin-bottom: 0.5rem;
-  color: var(--gray-600);
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.wishlist-icon {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.wishlist-icon:hover {
-  cursor: pointer;
-}
-.price {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-.mrp {
-  color: var(--gray-500);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 400;
-  margin-right: 0.5rem;
-  text-decoration: line-through;
-}
-.offer {
-  color: var(--red-400);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 400;
-  margin-right: 0.5rem;
-}
-
-.prod-image {
-  position: relative;
-}
-.prod-badge {
-  position: absolute;
-  left: 0px;
-  top: 25px;
-  background-color: var(--red-400);
-  font-size: 0.75rem;
-  color: var(--white);
-  padding: 0.25rem;
-}
-
-.prod-dismiss {
-  position: absolute;
-  right: 0px;
-  top: 0.5rem;
-  margin-right: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-  color: var(--gray-600);
-  font-size: 1rem;
-  padding: 0.25rem;
-  border-radius: 50%;
-  transition: 0.3s ease;
-}
-
-.prod-dismiss:hover {
-  cursor: pointer;
-  background: var(--gray-300);
-}
-
-/* horizontal card */
-.card-text-horizontal {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2rem;
-}
-.card-text-img img {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.card-text-content {
-  padding: 0rem 0.5rem;
-}
-
-.profile {
-  width: 5rem;
-  height: 5rem;
-}
-
-/* card text overlay */
-/* transition is not working fix it.  */
-.card-text-overlay {
-  position: relative;
-}
-
-.card-text-overlay img {
-  border-radius: 5px;
-}
-
-.text-overlay {
-  position: absolute;
-  padding: 1rem;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  color: var(--white);
-  transition: 0.8s ease;
-  opacity: 0;
-}
-
-.card-text-overlay:hover .text-overlay {
-  opacity: 1;
-}
-
-/* rating */
-.rating:hover {
-  color: var(--yellow-400);
-}
-
-/* list styles */
-
 /* Input */
-.input-text {
-  padding: 0.5rem 0.75rem;
-  width: 100%;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  border: solid 1px var(--gray-400);
-}
-.input-text:focus {
-  outline: none;
-  box-shadow: 3px 3px 0px 0px var(--blue-200), -3px 3px 0px 0px var(--blue-200),
-    3px -3px 0px 0px var(--blue-200), -3px -3px 0px 0px var(--blue-200);
-}
-
-.input-text-yellow:focus {
-  box-shadow: 3px 3px 0px 0px var(--yellow-200),
-    -3px 3px 0px 0px var(--yellow-200), 3px -3px 0px 0px var(--yellow-200),
-    -3px -3px 0px 0px var(--yellow-200);
-}
-.input-text-green:focus {
-  box-shadow: 3px 3px 0px 0px var(--green-200),
-    -3px 3px 0px 0px var(--green-200), 3px -3px 0px 0px var(--green-200),
-    -3px -3px 0px 0px var(--green-200);
-}
-.input-text-purple:focus {
-  box-shadow: 3px 3px 0px 0px var(--purple-200),
-    -3px 3px 0px 0px var(--purple-200), 3px -3px 0px 0px var(--purple-200),
-    -3px -3px 0px 0px var(--purple-200);
-}
-.input-text-red:focus {
-  box-shadow: 3px 3px 0px 0px var(--red-200), -3px 3px 0px 0px var(--red-200),
-    3px -3px 0px 0px var(--red-200), -3px -3px 0px 0px var(--red-200);
-}
+/* list styles */
+/* rating */
 
 /* background colors */
 /* transparent */

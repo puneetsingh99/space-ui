@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./alert-styles.css";
 import { CheckCircle, Error, Warning, Info, Cross } from "../../assets";
 
 export const Alert = () => {

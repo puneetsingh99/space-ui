@@ -1,6 +1,4 @@
 import { useState } from "react";
-import "../../styles.css";
-import "./card-styles.css";
 import { AddToWishListHeart, Dismiss } from "../../assets";
 
 export const Card = () => {
@@ -14,7 +12,7 @@ export const Card = () => {
           {/* e-commerce card */}
           <div className="card">
             <img
-              className="img"
+              className="responsive-img"
               src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10394735/2019/12/2/be4ef123-2e89-4c4e-bb15-de0a8c2bc32c1575283048006-ADIDAS-Women-Casual-Shoes-7521575283046929-1.jpg"
               alt="shoes"
             />
@@ -62,7 +60,7 @@ export const Card = () => {
           <code>
             {`<div className="card">
   <img
-    className="img"
+    className="responsive-img"
     src="example/product.jpg"
     alt="shoes"
   />
@@ -107,13 +105,13 @@ export const Card = () => {
         <div>
           {/* e-commerce card with badge */}
           <div className="card">
-            <div className="prod-image">
+            <div className="product-image">
               <img
-                className="img"
+                className="responsive-img"
                 src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10394735/2019/12/2/be4ef123-2e89-4c4e-bb15-de0a8c2bc32c1575283048006-ADIDAS-Women-Casual-Shoes-7521575283046929-1.jpg"
                 alt="shoes"
               />
-              <span className="prod-badge">TRENDING</span>
+              <span className="product-badge">TRENDING</span>
             </div>
 
             <div className="p-2">
@@ -144,13 +142,13 @@ export const Card = () => {
         <pre className="text-lg">
           <code>
             {`<div className="card">
-  <div className="prod-image">
+  <div className="product-image">
     <img
-      className="img"
+      className="responsive-img"
       src="example/product.jpg"
       alt="shoes"
     />
-    <span className="prod-badge">TRENDING</span>
+    <span className="product-badge">TRENDING</span>
   </div>
   <div className="p-2">
     <p className="brand-name">
@@ -183,13 +181,13 @@ export const Card = () => {
         <div className="mr-12">
           {/* e-commerce dismiss card */}
           <div className="card">
-            <div className="prod-image">
+            <div className="product-image">
               <img
-                className="img"
+                className="responsive-img"
                 src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10394735/2019/12/2/be4ef123-2e89-4c4e-bb15-de0a8c2bc32c1575283048006-ADIDAS-Women-Casual-Shoes-7521575283046929-1.jpg"
                 alt="shoes"
               />
-              <span className="prod-dismiss">
+              <span className="product-dismiss">
                 {" "}
                 <Dismiss />{" "}
               </span>
@@ -237,13 +235,13 @@ export const Card = () => {
         <pre className="text-lg">
           <code>
             {`<div className="card">
-  <div className="prod-image">
+  <div className="product-image">
   <img
-    className="img"
+    className="responsive-img"
     src="example/product.jpg"
     alt="shoes"
   />
-  <span className="prod-dismiss"><Dismiss/></span>
+  <span className="product-dismiss"><Dismiss/></span>
 </div>
   <div className="p-2">
     <p className="brand-name">
@@ -288,7 +286,7 @@ export const Card = () => {
         {/* text card */}
         <div className="card card-text">
           <img
-            className="img"
+            className="responsive-img"
             src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
             alt="planet"
           />
@@ -312,7 +310,7 @@ export const Card = () => {
           <code>
             {`<div className="card card-text">
   <img
-    className="img"
+    className="responsive-img"
     src="example/product.jpg"
     alt="shoes"
   />
@@ -351,7 +349,7 @@ export const Card = () => {
       <div className="card-text-horizontal mb-6">
         <div className="card-text-img">
           <img
-            className="img"
+            className="responsive-img"
             src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
             alt="planet"
           />
@@ -376,7 +374,7 @@ export const Card = () => {
             {`<div className="card-text-horizontal">
   <div className="card-text-img">
     <img
-      className="img"
+      className="responsive-img"
       src="example/planet.jpg"
       alt="planet"
     />
@@ -410,7 +408,7 @@ export const Card = () => {
       <div className="flex justify-between mb-6">
         <div className="w-250">
           <img
-            className="img img-round avatar-xl"
+            className="responsive-img-round avatar-xl"
             src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
             alt="planet"
           />
@@ -439,7 +437,7 @@ export const Card = () => {
             {`<div className="flex justify-between mb-6">
   <div className="w-250">
     <img
-      className="img img-round avatar-xl"
+      className="responsive-img-round avatar-xl"
       src="img/planet.jpg"
       alt="planet"
     />
@@ -474,7 +472,7 @@ export const Card = () => {
 
       <div className="card-text-overlay mb-6">
         <img
-          className="img"
+          className="responsive-img"
           src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
           alt="planet"
         />
@@ -503,7 +501,7 @@ export const Card = () => {
           <code>
             {`<div className="card-text-overlay">
   <img
-    className="img"
+    className="responsive-img"
     src="img/planet.jpg"
     alt="planet"
   />

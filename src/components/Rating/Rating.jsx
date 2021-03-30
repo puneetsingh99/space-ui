@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./rating-styles.css";
 import { OutlineStar, FilledStar, HalfStar } from "../../assets";
 
 export const Rating = () => {

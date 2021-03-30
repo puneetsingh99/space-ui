@@ -1,6 +1,4 @@
 import { useState } from "react";
-import "../../styles.css";
-import "./modal-styles.css";
 
 export const Modal = () => {
   const [showModal, setShowModal] = useState(false);

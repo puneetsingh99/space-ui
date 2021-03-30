@@ -17,13 +17,20 @@
 }
 
 .header-container {
-  /* border: solid 1px green; */
   box-shadow: 0px 1px 4px 0px rgba(156, 163, 175, 0.5);
   position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
   z-index: 1;
-  /* background-color: white; */
-  /* padding: 1rem; */
+}
+
+.header-content {
+  width: 83.333333%;
+}
+
+@media screen and (max-width: 600px) {
+  .header-content {
+    width: 95%;
+  }
 }

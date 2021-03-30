@@ -1,5 +1,4 @@
-import "../../styles.css";
-import "./snackbar-styles.css";
+
 import { CheckCircle, Error, Warning, Info, Cross } from "../../assets";
 
 export const Snackbar = () => {

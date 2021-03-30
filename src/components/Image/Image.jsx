@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./img-styles.css";
 
 export const Image = () => {
   return (
@@ -20,7 +18,7 @@ export const Image = () => {
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOGbjJ-FuxPywVsQx6Csc8xeRb7JpfDKRAw&usqp=CAU"
           alt="space"
-          className="img"
+          className="responsive-img"
         />
       </div>
       {/* code snippet */}
@@ -47,8 +45,7 @@ export const Image = () => {
         width with the help of <code className="code-line">w-full h-full</code>{" "}
         utility class.
         <p>
-          {" "}
-          <span className="font-semibold">Tip: </span> Use image with{" "}
+          <span className="font-semibold">Tip: </span> Use image with
           <code className="code-line">1:1</code> aspect ratio for best results.
         </p>
       </p>
@@ -57,7 +54,7 @@ export const Image = () => {
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOGbjJ-FuxPywVsQx6Csc8xeRb7JpfDKRAw&usqp=CAU"
             alt="space"
-            className="img img-round w-full h-full"
+            className="responsive-img-round w-full h-full"
           />
         </div>
       </div>
@@ -66,8 +63,8 @@ export const Image = () => {
         <pre className="text-lg">
           <code>
             {`<div className="w-40 h-40">
-  <img src="img/space_wallpaper.jgp" alt="space" className="img
-  img-round w-full h-full"/>
+  <img src="img/space_wallpaper.jgp" alt="space" className="responsive-img
+  responsive-img-round w-full h-full"/>
 </div>`}
           </code>
         </pre>

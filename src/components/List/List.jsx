@@ -1,5 +1,3 @@
-import "../../styles.css";
-import "./list-styles.css";
 import { CheckCircle } from "../../assets";
 
 export const List = () => {
@@ -20,7 +18,7 @@ export const List = () => {
           <div className="flex justify-between mb-6">
             <div className="w-250">
               <img
-                className="img img-round avatar-lg"
+                className="responsive-img-round avatar-lg"
                 src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
                 alt="planet"
               />
@@ -48,7 +46,7 @@ export const List = () => {
           <div className="flex justify-between mb-6">
             <div className="w-250">
               <img
-                className="img img-round avatar-lg"
+                className="responsive-img-round avatar-lg"
                 src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
                 alt="planet"
               />
@@ -76,7 +74,7 @@ export const List = () => {
           <div className="flex justify-between mb-6">
             <div className="w-250">
               <img
-                className="img img-round avatar-lg"
+                className="responsive-img-round avatar-lg"
                 src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
                 alt="planet"
               />
@@ -104,7 +102,7 @@ export const List = () => {
           <div className="flex justify-between mb-6">
             <div className="w-250">
               <img
-                className="img img-round avatar-lg"
+                className="responsive-img-round avatar-lg"
                 src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
                 alt="planet"
               />

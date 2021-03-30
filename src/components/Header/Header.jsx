@@ -9,9 +9,6 @@ export const Header = ({ setRoute }) => {
       <div className="w-f56 mx-auto flex justify-between">
         <div className="logo cursor-pointer" onClick={() => setRoute("home")}>
           <h1 className="text-2xl">
-            {/* <span role="img" aria-label="jsx-a11y">
-              🌌{" "}
-            </span> */}
             <span className="flex items-center">
               <img
                 src={space}
@@ -32,7 +29,7 @@ export const Header = ({ setRoute }) => {
           </p>{" "}
           <span className="github-icon ">
             <a
-              href={`https://www.instagram.com/thelastspacetraveller/`}
+              href={`https://github.com/puneetsingh99/space-ui/`}
               className="flex items-center"
             >
               <Github />

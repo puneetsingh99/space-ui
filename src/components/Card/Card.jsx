@@ -504,15 +504,7 @@ export const Card = () => {
     <p className="text-2xl font-semibold mb-2">Planet</p>
     <p className="text-lg">
       A planet is an astronomical body orbiting a star or stellar
-      remnant that is massive enough to be rounded by its own gravity,
-      is not massive enough to cause thermonuclear fusion, and –
-      according to the International International Astronomical Union
-      but not all planetary scientists – has cleared its neighbouring
-      region of planetesimals. The term planet is ancient, with ties
-      to history, astrology, science, mythology, and religion. Apart
-      from Earth itself, five planets in the Solar System are often
-      visible to the naked eye. These were regarded by many early
-      cultures as divine, or as emissaries of deities.
+      remnant that is massive enough to be rounded by its own gravity.
     </p>
     </div>
   </div>

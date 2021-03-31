@@ -5,7 +5,7 @@ export const FooterSocial = () => {
     <div className="w-full p-4">
       <div className="flex justify-between w-f25 m-auto text-2xl  mb-4">
         <div className="footer-social-icon">
-          <a href={"https://github.com/puneetsingh99"}>
+          <a href={"https://github.com/puneetsingh99/space-ui/"}>
             <Github />
           </a>
         </div>

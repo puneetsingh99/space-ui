@@ -951,6 +951,17 @@
   text-decoration: underline;
 }
 
+/* text-transform */
+.uppercase{
+  text-transform: uppercase;
+}
+.lowercase{
+  text-transform: lowercase;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+
 /* SPACING */
 /* padding */
 

@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Scrollbar */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -45,6 +46,9 @@ body {
   display: flex;
   padding: 1rem;
   margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .code-container {
@@ -60,10 +64,33 @@ body {
   display: none;
 }
 
+.content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
 /* Mobile devices */
 @media screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
   .grid-container {
+    display: block;
     width: 95%;
-    background-color: green;
+    /* background-color: green; */
+  }
+  .main {
+    /* background-color: purple; */
+    width: 100%;
+    padding: 1rem;
+  }
+  .card-container {
+    flex-direction: column;
   }
 }

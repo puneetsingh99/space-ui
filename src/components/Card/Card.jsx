@@ -1,3 +1,4 @@
+import "../../app-styles.css"
 import { useState } from "react";
 import { AddToWishListHeart, Dismiss } from "../../assets";
 
@@ -7,8 +8,8 @@ export const Card = () => {
     <div className="w-full m-auto mb-8 text-left">
       <h1 className="mb-6 text-3xl">Card</h1>
 
-      <div className="flex justify-between items-start mb-6">
-        <div className="mr-12">
+      <div className="card-container">
+        <div className=" mr-12">
           {/* e-commerce card */}
           <div className="card">
             <img
@@ -55,6 +56,7 @@ export const Card = () => {
           </p>
         </div>
       </div>
+      {/* code snippet */}
       <div className="content-container code-container">
         <pre className="text-lg">
           <code>
@@ -92,7 +94,7 @@ export const Card = () => {
       {/* card  with badge */}
       <h1 className="mb-6 text-2xl">Card with Badge</h1>
 
-      <div className="flex justify-between items-start mb-6">
+      <div className="flex justify-between items-start mb-6 card-container">
         {/* card description */}
 
         <div className="mr-12">
@@ -177,7 +179,7 @@ export const Card = () => {
 
       {/* card with dismiss */}
       <h1 className="mb-6 text-2xl">Card with Dismiss</h1>
-      <div className="flex justify-between items-start mb-6">
+      <div className="flex justify-between items-start mb-6 card-container">
         <div className="mr-12">
           {/* e-commerce dismiss card */}
           <div className="card">
@@ -271,7 +273,7 @@ export const Card = () => {
       {/* Card with text */}
       <h1 className="mb-6 text-2xl"> Text Card</h1>
 
-      <div className="flex justify-between items-start mb-6">
+      <div className="flex justify-between items-start mb-6 card-container">
         <div className="mr-12">
           {/* card description */}
           <div>
@@ -408,7 +410,7 @@ export const Card = () => {
       <div className="flex justify-between mb-6">
         <div className="w-250">
           <img
-            className="responsive-img-round avatar-xl"
+            className="responsive-img-round profile-card__img"
             src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
             alt="planet"
           />
@@ -477,19 +479,11 @@ export const Card = () => {
           alt="planet"
         />
         <div className="text-overlay">
-          <div className="card-text-only mb-6">
+          <div className="mb-6">
             <p className="text-2xl font-semibold mb-2">Planet</p>
-            <p className="text-lg">
+            <p className="text-lg text-overlay__text">
               A planet is an astronomical body orbiting a star or stellar
-              remnant that is massive enough to be rounded by its own gravity,
-              is not massive enough to cause thermonuclear fusion, and –
-              according to the International International Astronomical Union
-              but not all planetary scientists – has cleared its neighbouring
-              region of planetesimals. The term planet is ancient, with ties to
-              history, astrology, science, mythology, and religion. Apart from
-              Earth itself, five planets in the Solar System are often visible
-              to the naked eye. These were regarded by many early cultures as
-              divine, or as emissaries of deities.
+              remnant that is massive enough to be rounded by its own gravit.
             </p>
           </div>
         </div>

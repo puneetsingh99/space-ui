@@ -35,7 +35,7 @@ export const Home = ({ setRoute }) => {
           </pre>
         </div>
         <div className="home-page__footer p-4 mt-12">
-          <div className="footer-social w-f35 m-auto">
+          <div className="footer-social home-page__footer-social m-auto">
             <FooterSocial />
           </div>
           <p className="text-lg text-gray-500 w-full text-center m-auto font-semibold">

@@ -13,8 +13,21 @@
   margin-bottom: 1rem;
 }
 
+.home-page__footer-social {
+  width: 60%;
+}
+
 @media Screen and (max-width: 600px) {
   .home-page {
+    width: 100%;
+  }
+
+  .home-page__code-container {
     width: 95%;
+    text-align: justify;
+  }
+
+  .home-page__footer-social {
+    width: 100%;
   }
 }

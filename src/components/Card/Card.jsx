@@ -408,7 +408,7 @@ export const Card = () => {
 
       {/* horizontal profile card*/}
       <div className="flex justify-between mb-6">
-        <div className="w-250">
+        <div>
           <img
             className="responsive-img-round profile-card__img"
             src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"

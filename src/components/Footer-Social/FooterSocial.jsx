@@ -25,7 +25,7 @@ export const FooterSocial = () => {
           </a>
         </div>
       </div>
-      <p className="text-lg text-gray-500 w-f35 text-center m-auto font-semibold">
+      <p className="text-lg text-gray-500 w-f45 text-center m-auto font-semibold">
         Created by Puneet Singh
       </p>
     </div>

@@ -167,6 +167,6 @@
 @media screen and (max-width: 600px) {
   .profile-card__img {
     min-width: 2.5rem;
-    min-height: 2.5rem;
+    height: 2.5rem;
   }
 }

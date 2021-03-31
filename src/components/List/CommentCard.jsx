@@ -1,6 +1,7 @@
 export const CommentCard = () => {
-    return (<div className="flex justify-between mb-6">
-        <div className="w-250">
+    return (
+        <div className="flex justify-between mb-6">
+        <div>
           <img
             className="responsive-img-round profile-card__img"
             src="https://i.pinimg.com/originals/45/d3/38/45d33896980263356cd4d66380f17464.jpg"
@@ -22,5 +23,7 @@ export const CommentCard = () => {
             about learnings from my journey over there!
           </p>
         </div>
-      </div>)
+      </div>
+
+    )
 }

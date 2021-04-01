@@ -21,3 +21,5 @@ export { OutlineStar } from "./svg/OutlineStar";
 export { Dismiss } from "./svg/Dismiss";
 export { AddToWishListHeart } from "./svg/AddToWishListHeart";
 export { ArrowRight } from "./svg/ArrowRight";
+export { Hamburger } from "./svg/Hamburger";
+export { HamburgerClose } from "./svg/HamburgerClose";

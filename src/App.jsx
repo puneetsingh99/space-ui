@@ -56,7 +56,7 @@ export default function App() {
     <div className="App">
       {/* header */}
       <div className="header">
-        <Header setRoute={setRoute} />
+        <Header setRoute={setRoute} route = {route} />
       </div>
 
       {/* Home */}

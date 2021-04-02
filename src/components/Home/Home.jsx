@@ -30,7 +30,7 @@ export const Home = ({ setRoute }) => {
           <pre className="text-lg">
             <code>
               &lt;link rel="stylesheet"
-              href="https://spaceui.netlify.app/css"&gt;
+              href="https://spaceuicss.netlify.app/main.css"&gt;
             </code>
           </pre>
         </div>

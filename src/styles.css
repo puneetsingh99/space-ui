@@ -42,9 +42,6 @@
 /* Navigation */
 @import url("./components/Navigation/navigation-styles.css");
 
-/* Notify */
-@import url("./components/Notify/notify-styles.css");
-
 /* Rating */
 @import url("./components/Rating/rating-styles.css");
 
@@ -952,13 +949,13 @@
 }
 
 /* text-transform */
-.uppercase{
+.uppercase {
   text-transform: uppercase;
 }
-.lowercase{
+.lowercase {
   text-transform: lowercase;
 }
-.capitalize{
+.capitalize {
   text-transform: capitalize;
 }
 

@@ -1,7 +1,6 @@
 import "./styles.css";
 import "./app-styles.css";
 
-
 import {
   Header,
   Home,
@@ -19,10 +18,9 @@ import {
   FooterNav,
   FooterSocial,
   Navigation,
-  Notify,
   Text,
   Snackbar,
-  Slider
+  Slider,
 } from "./components";
 import { useEffect, useState } from "react";
 
@@ -43,7 +41,7 @@ export default function App() {
     "slider",
     "notify",
     "text",
-    "snackbar"
+    "snackbar",
   ];
   const [route, setRoute] = useState("home");
 
@@ -56,7 +54,7 @@ export default function App() {
     <div className="App">
       {/* header */}
       <div className="header">
-        <Header setRoute={setRoute} route = {route} />
+        <Header setRoute={setRoute} route={route} />
       </div>
 
       {/* Home */}

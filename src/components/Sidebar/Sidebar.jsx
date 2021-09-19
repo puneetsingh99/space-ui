@@ -1,5 +1,3 @@
-
-
 export const Sidebar = ({ route, setRoute }) => {
   return (
     <div className="text-left fixed bg-white sidebar-container">
@@ -59,29 +57,12 @@ export const Sidebar = ({ route, setRoute }) => {
           <a href="#">Modal</a>
         </li>
         <li
-          className={`${route === "navigation" && "highlight"}`}
-          onClick={() => setRoute("navigation")}
-        >
-          <a href="#">Navigation</a>
-        </li>
-        <li
           className={`${route === "rating" && "highlight"}`}
           onClick={() => setRoute("rating")}
         >
           <a href="#">Rating</a>
         </li>
-        <li
-          className={`${route === "slider" && "highlight"}`}
-          onClick={() => setRoute("slider")}
-        >
-          <a href="#">Slider</a>
-        </li>
-        <li
-          className={`${route === "notify" && "highlight"}`}
-          onClick={() => setRoute("notify")}
-        >
-          <a href="#">Notify</a>
-        </li>
+
         <li
           className={`${route === "text" && "highlight"}`}
           onClick={() => setRoute("text")}

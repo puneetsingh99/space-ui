@@ -1,4 +1,3 @@
-
 import { FooterSocial } from "../Footer-Social/FooterSocial";
 import space from "../../assets/space.svg";
 
@@ -7,7 +6,11 @@ export const Home = ({ setRoute }) => {
     <main className="w-full">
       <section className="m-auto home-page text-center pt-4">
         <div className="home-page__hero m-auto">
-          <img src={space} alt="space ui logo" className="responsive-img mb-6" />
+          <img
+            src={space}
+            alt="space ui logo"
+            className="responsive-img mb-6"
+          />
           <h1 className="text-4xl text-center mb-6">Space UI</h1>
         </div>
         <p className="text-gray-600 text-2xl mb-6">
@@ -35,13 +38,9 @@ export const Home = ({ setRoute }) => {
           </pre>
         </div>
         <div className="home-page__footer p-4 mt-12">
-          <div className="footer-social home-page__footer-social m-auto">
+          <div className="footer-social home-page__footer-social m-auto mb-4">
             <FooterSocial />
           </div>
-          <p className="text-lg text-gray-500 w-full text-center m-auto font-semibold">
-            Thank you Tailwind CSS, Bootstrap, Material UI and Chakra UI for
-            inspiring this project.
-          </p>
         </div>
       </section>
     </main>
